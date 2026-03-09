@@ -12,6 +12,7 @@ public:
                 else
                     water += leftMax - height[left];
                 left++;
+                
             }
             else {
                 if(height[right] >= rightMax)
@@ -21,6 +22,8 @@ public:
                 right--;
             }
         }  
+
+        
 
 
 
