@@ -28,6 +28,8 @@ public:
             }
         }
 
+        
+
         while(j < p.size() && p[j] == '*')
             j++;
 
