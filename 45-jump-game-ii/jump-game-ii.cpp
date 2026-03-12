@@ -12,6 +12,8 @@ public:
                 jumps++;
                 currentEnd = farthest;
             }
+
+            
         }
 
         return jumps;   // return required
