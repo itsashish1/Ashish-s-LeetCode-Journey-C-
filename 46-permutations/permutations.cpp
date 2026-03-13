@@ -20,6 +20,8 @@ public:
 
             temp.pop_back();
             used[i] = false;
+
+            
         }
     }
 
