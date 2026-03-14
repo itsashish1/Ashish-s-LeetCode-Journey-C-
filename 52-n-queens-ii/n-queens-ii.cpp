@@ -24,6 +24,8 @@ public:
         }
     }
 
+    
+
     int totalNQueens(int n) {
         vector<int> col(n, 0);
         vector<int> diag1(2*n - 1, 0);
