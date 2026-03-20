@@ -1,4 +1,4 @@
-# 🚀 LeetCode Solutions in C++
+#LeetCode Solutions in C++
 
 This repository contains my solutions to various LeetCode problems written in **C++**.
 
