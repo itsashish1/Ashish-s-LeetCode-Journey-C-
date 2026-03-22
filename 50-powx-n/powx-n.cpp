@@ -11,6 +11,8 @@ public:
             N = -N;
         }
 
+        
+
         double result = 1.0;
 
         while (N > 0) {
@@ -21,7 +23,7 @@ public:
             N /= 2;
         }
 
-        
+
 
         return result;
     }
