@@ -18,6 +18,8 @@ public:
                 // Step 3: Merge intervals
                 result.back()[1] = max(result.back()[1], interval[1]);
             }
+
+            
         }
 
         return result;
