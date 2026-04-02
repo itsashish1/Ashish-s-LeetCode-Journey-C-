@@ -13,6 +13,8 @@ public:
             }
         }
 
+        
+
         // agar nums2 me elements bach gaye
         while (j >= 0) {
             nums1[k--] = nums2[j--];
