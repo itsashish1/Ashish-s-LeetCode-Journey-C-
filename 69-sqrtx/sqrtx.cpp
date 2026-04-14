@@ -16,6 +16,7 @@ public:
                 ans = mid;       // store possible answer
                 left = mid + 1;
             }
+            
             else {
                 right = mid - 1;
             }
