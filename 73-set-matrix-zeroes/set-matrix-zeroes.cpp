@@ -1,6 +1,8 @@
 #include <vector>
 using namespace std;
 
+
+
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
@@ -16,6 +18,8 @@ public:
                 firstRowZero = true;
                 break;
             }
+
+
         }
 
         // Step 2: Check first column
