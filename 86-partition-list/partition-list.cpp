@@ -18,6 +18,8 @@ public:
             head = head->next;
         }
 
+        
+
         after->next = NULL;                // important
         before->next = afterHead->next;    // connect lists
 
