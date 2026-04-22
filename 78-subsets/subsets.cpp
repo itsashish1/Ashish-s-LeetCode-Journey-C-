@@ -13,8 +13,10 @@ public:
             backtrack(nums, temp, i + 1);
             temp.pop_back();
         }
+
+        
     }
-    
+
 
     vector<vector<int>> subsets(vector<int>& nums) {
         vector<int> temp;
