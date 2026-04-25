@@ -14,6 +14,7 @@ public:
                 st.push(curr);
                 curr = curr->left;
             }
+            
 
             curr = st.top();
             st.pop();
