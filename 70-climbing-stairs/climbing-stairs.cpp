@@ -11,6 +11,7 @@ public:
             prev2 = prev1;
             prev1 = current;
         }
+
         
 
         return prev1;
