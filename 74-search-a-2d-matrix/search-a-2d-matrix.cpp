@@ -6,6 +6,8 @@ public:
         
         int left = 0, right = m * n - 1;
         
+
+        
         while (left <= right) {
             int mid = (left + right) / 2;
             int row = mid / n;
