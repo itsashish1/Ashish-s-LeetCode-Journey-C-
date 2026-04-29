@@ -9,6 +9,8 @@ public:
             res = res * (N - r + i) / i;
         }
 
+        
+
         return (int)res;
     }
 };
