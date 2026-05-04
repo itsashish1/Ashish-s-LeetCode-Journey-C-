@@ -27,9 +27,13 @@ public:
                     line += words[k];
                     if (k < j - 1) line += " ";
                 }
+
+                
                 // Fill remaining spaces at end
                 line += string(maxWidth - line.length(), ' ');
             }
+
+
             else {
                 // Step 3: Fully justify
                 int totalChars = 0;
