@@ -57,10 +57,8 @@ public:
                         if (extra > 0) extra--;
                     }
                 }
-
-
             }
-            
+
 
             result.push_back(line);
             i = j;
