@@ -27,11 +27,6 @@ public:
                     line += words[k];
                     if (k < j - 1) line += " ";
                 }
-
-
-
-
-
                 // Fill remaining spaces at end
                 line += string(maxWidth - line.length(), ' ');
             }
