@@ -6,12 +6,15 @@ public:
     vector<int> grayCode(int n) {
         vector<int> result;
 
-        
+
+
+
         
         // Gray Code Formula: i ^ (i >> 1)
         for (int i = 0; i < (1 << n); i++) {
             result.push_back(i ^ (i >> 1));
         }
+
 
 
         
