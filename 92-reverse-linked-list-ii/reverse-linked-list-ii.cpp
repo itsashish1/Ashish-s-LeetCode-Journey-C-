@@ -15,6 +15,8 @@ public:
             prev = prev->next;
         }
 
+        
+
         ListNode* curr = prev->next;
         ListNode* nextNode = NULL;
 
@@ -30,7 +32,7 @@ public:
             prev->next = nextNode;
         }
 
-        
+
 
         return dummy->next;
     }
