@@ -18,6 +18,8 @@ public:
             second = root;
         }
 
+        
+
         prev = root;
 
         inorder(root->right);
