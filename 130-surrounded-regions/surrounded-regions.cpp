@@ -50,6 +50,10 @@ public:
                 else if (board[i][j] == '#')
                     board[i][j] = 'O';
             }
+
+
         }
+
+        
     }
 };
