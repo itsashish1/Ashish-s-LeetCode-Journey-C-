@@ -17,6 +17,7 @@ public:
 
         int mid = (left + right) / 2;
 
+
         TreeNode* root = new TreeNode(nums[mid]);
 
         root->left = buildBST(nums, left, mid - 1);
@@ -29,5 +30,5 @@ public:
         return buildBST(nums, 0, nums.size() - 1);
     }
 
-    
+
 };
