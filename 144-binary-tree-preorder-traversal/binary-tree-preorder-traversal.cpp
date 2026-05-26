@@ -18,7 +18,7 @@ public:
         return ans;
     }
 
-    
+
 
     void preorder(TreeNode* node, vector<int>& ans) {
         if (node == NULL)
@@ -28,4 +28,6 @@ public:
         preorder(node->left, ans);  // Left
         preorder(node->right, ans); // Right
     }
+
+    
 };
