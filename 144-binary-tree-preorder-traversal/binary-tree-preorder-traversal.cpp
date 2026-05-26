@@ -18,6 +18,8 @@ public:
         return ans;
     }
 
+    
+
     void preorder(TreeNode* node, vector<int>& ans) {
         if (node == NULL)
             return;
