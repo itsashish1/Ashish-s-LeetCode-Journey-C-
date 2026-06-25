@@ -7,8 +7,7 @@ public:
             ListNode* nextNode = curr->next;
             curr->next = prev;
             prev = curr;
-            curr = nextNode;
-        }
+            curr = nextNode;    }
         return prev;
     }
 };
