@@ -6,6 +6,8 @@ public:
             x = 1.0 / x;
             power = -power;
         }
+
+        
         double ans = 1.0;
         while (power > 0) {
             if (power % 2 == 1)
