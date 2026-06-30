@@ -1,30 +1,18 @@
-#include <bits/stdc++.h>
-using namespace std;
-
 class Solution {
 public:
     double myPow(double x, int n) {
-        long long N = n; // to handle INT_MIN
-        
-        if (N < 0) {
-            x = 1 / x;
-            N = -N;
+        long long power = n;
+        if (power < 0) {
+            x = 1.0 / x;
+            power = -power;
         }
-
-        
-
-        double result = 1.0;
-
-        while (N > 0) {
-            if (N % 2 == 1) {
-                result *= x;
-            }
+        double ans = 1.0;
+        while (power > 0) {
+            if (power % 2 == 1)
+                ans *= x;
             x *= x;
-            N /= 2;
+            power /= 2;
         }
-
-
-
-        return result;
+        return ans;
     }
 };
