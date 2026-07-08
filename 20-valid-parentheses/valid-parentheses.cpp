@@ -14,7 +14,7 @@ public:
                     (c == ']' && top != '[')) {
                     return false;
                 }
-            }
+    }
 
             
         }
