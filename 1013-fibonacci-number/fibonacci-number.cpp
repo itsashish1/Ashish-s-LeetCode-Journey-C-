@@ -8,6 +8,7 @@ public:
             a=b;
             b=c;
         }
+        
         return a;
     }
 };
